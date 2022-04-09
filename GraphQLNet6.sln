@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLNet6", "GraphQLNet6\GraphQLNet6.csproj", "{02AFA702-0730-4ECA-AC7D-F40298994F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9BCD1631-A92D-4185-BCF7-8F25175D4B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{57FED260-BC8B-45D1-AC43-F98926F460CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02AFA702-0730-4ECA-AC7D-F40298994F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AFA702-0730-4ECA-AC7D-F40298994F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AFA702-0730-4ECA-AC7D-F40298994F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AFA702-0730-4ECA-AC7D-F40298994F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCD1631-A92D-4185-BCF7-8F25175D4B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCD1631-A92D-4185-BCF7-8F25175D4B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCD1631-A92D-4185-BCF7-8F25175D4B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCD1631-A92D-4185-BCF7-8F25175D4B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FED260-BC8B-45D1-AC43-F98926F460CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FED260-BC8B-45D1-AC43-F98926F460CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FED260-BC8B-45D1-AC43-F98926F460CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FED260-BC8B-45D1-AC43-F98926F460CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA5EB72D-E3D5-43FE-96B5-D229E7E3217F}
+	EndGlobalSection
+EndGlobal
