@@ -2,6 +2,7 @@ global using Business;
 global using DataAccess;
 global using Microsoft.AspNetCore.Mvc;
 using GraphQLNet6;
+using GraphiQl;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ if (app.Environment.IsDevelopment())
 
 }
 
+app.UseGraphiQl("/graphql");
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
